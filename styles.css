@@ -87,7 +87,7 @@ table, th, td {
 }
 
 .profile-image {
-    width: 150px;
+    width: auto;
     height: auto; 
     border-radius: 50%;
     display: block;
