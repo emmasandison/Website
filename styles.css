@@ -1,18 +1,23 @@
+/* General Styles */
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     margin: 0;
     padding: 0;
+    color: white;
+    background-color: navy;
 }
 
 nav {
-    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
     text-align: center;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -21,31 +26,129 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Homepage Styles */
+#home {
+    text-align: center;
+    padding: 50px;
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#home p {
+    max-width: 600px;
+    margin: 20px auto;
     font-size: 18px;
 }
 
-section {
-    padding: 60px 20px;
+/* Education Page Styles */
+#education {
+    text-align: center;
+    margin: 20px auto;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Experiences Page Styles */
+#experiences {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 60%;
+    margin: 20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-image {
+    display: block;
+    width: 60%; /* Adjust width as needed */
+    margin: 20px auto;
+}
+
+/* Projects Page Styles */
+.images-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between images */
+}
+
+.images-row img {
+    width: 30%; /* Adjust width as needed */
+    height: auto;
+}
+
+/* Contact Page Styles */
+#contact {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
     text-align: center;
 }
 
-.home-section {
-    background-image: url(background.jpeg); 
-    background-size: cover;
+#contact ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-#education, #experiences, #projects {
-    background-color: navy; 
+#contact li {
+    margin: 10px 0;
 }
 
-h1 {
-    font-size: 36px;
-    color: white;
-}
-
-p {
+#contact a {
+    text-decoration: none;
+    color: #4CAF50; /* Adjust color as needed */
     font-size: 18px;
-    color: white;
+}
+
+#contact a:hover {
+    text-decoration: underline;
 }
