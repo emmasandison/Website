@@ -32,10 +32,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-#gradient{
-    height: 1000px;
-    background-image: linear-gradient(rgb(0, 0, 57), rgb(48, 48, 211), lightblue);
-}
 
 p{
     text-align: center;
@@ -68,7 +64,7 @@ table, th, td {
 
 .project-image {
     display: block;
-    width: 60%; 
+    width: 60%;
     margin: 20px auto;
 }
 
@@ -76,11 +72,17 @@ table, th, td {
 .images-row {
     display: flex;
     justify-content: center;
-    gap: 10px; 
+    gap: 10px;
 }
 
 .images-row img {
-    width: 30%; 
+    width: 30%;
     height: auto;
+}
+
+.contact-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
 }
 
