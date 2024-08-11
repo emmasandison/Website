@@ -15,11 +15,11 @@ nav {
 nav li {
     display: inline;
     padding-right: 100px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 nav li a{
-    font-size: 25px;
+    font-size: 20px;
     color: silver;
     text-decoration: none;
 }
@@ -35,11 +35,11 @@ nav ul li a:hover {
 
 p{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     color: silver;
     font-family: 'Times New Roman', Times, serif;
     padding: 20px;
-    margin: 0 auto;
+    margin: 0 auto; 
     max-width: 800px;
 }
 
