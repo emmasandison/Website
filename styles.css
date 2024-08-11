@@ -91,9 +91,9 @@ table, th, td {
 }
 
 .profile-image {
-    max-width: 300px;
-    max-height: 300px;
-    /* object-fit: contain; */
+    width: auto;
+    height: 300px;
+    object-fit: contain;
     display: block;
     margin: 0 auto;
 }
