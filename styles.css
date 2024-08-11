@@ -81,7 +81,7 @@ table, th, td {
 }
 
 .table-wrapper {
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 .contact-links {
@@ -92,7 +92,7 @@ table, th, td {
 
 .profile-image {
     width: 300px;
-    height: auto;
+    height: 300px;
     max-width: 100%;
     display: block;
     margin: 0 auto;
