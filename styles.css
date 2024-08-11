@@ -92,8 +92,8 @@ table, th, td {
 
 .profile-image {
     width: 300px;
-    height: auto;
-    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
     display: block;
     margin: 0 auto;
 }
