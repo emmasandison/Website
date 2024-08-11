@@ -38,6 +38,9 @@ p{
     font-size: 20px;
     color: silver;
     font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 img{
