@@ -92,7 +92,7 @@ table, th, td {
 
 .profile-image {
     max-width: 100%;
-    max-width: 100%;
+    max-width: 300px;
     object-fit: contain;
     display: block;
     margin: 0 auto;
