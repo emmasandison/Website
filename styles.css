@@ -9,12 +9,18 @@ body, div {
 nav {
     text-align: center;
     padding: 30px;
-    width: auto;
+    width: 100%; /*change from auto*/
+}
+
+nav ul { /* new */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 nav li {
-    display: inline;
-    padding-right: 100px;
+    display: inline-block; /* change to block */
+    padding: 0 15px; /*change from padding-right: 100px; */
     font-size: 20px;
 }
 
@@ -28,9 +34,9 @@ nav li a:hover{
     color: lightblue
 }
 
-nav ul li a:hover {
+/* nav ul li a:hover {
     text-decoration: underline;
-}
+} */
 
 ul li a{
     font-size: 25px;
