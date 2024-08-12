@@ -109,3 +109,37 @@ table, th, td {
     display: block;
     margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+    nav {
+        padding: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        display: block;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body, div {
+        font-size: 18px;
+    }
+
+    nav li {
+        padding: 5px 0;
+    }
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+    }
+}
