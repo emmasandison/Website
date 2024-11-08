@@ -3,7 +3,7 @@ body, div {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 25px;
-    color: silver;
+    color: darkgray;
 }
 
 nav {
@@ -20,7 +20,7 @@ nav li {
 
 nav li a{
     font-size: 25px;
-    color: silver;
+    color: darkgray;
     text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ h1{
 p{
     text-align: center;
     font-size: 25px;
-    color: silver;
+    color: darkgray;
     font-family: 'Times New Roman', Times, serif;
     padding: 20px;
     margin: 0 auto;
